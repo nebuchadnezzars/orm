@@ -19,6 +19,7 @@ Türkçe:
 **ORM yazılımı python kodumuzu sql sorgularına dönüştürür.**
 
 - Database’e sql sorguları ile değil ORM yazılımı ile yazıyor.
+- ORM’in kendisi sql sorgularını oluşturuyor !
 
 **ORM yapısında bir database var fakat database’de yapılan CRUD işlemleri SQL dili ile değil ORM yazılımı ile yapılıyor.** 
 
