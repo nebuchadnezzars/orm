@@ -25,6 +25,13 @@ Türkçe:
 
 Python’daki ORM yazılımı: `sqlalchemy`
 
+ORM’de SQL Injection mümkün mü?
+
+- Eğer ORM’inde içinde prepare-statement ile parameterized kullanımının dışında, string concatenated yapıldığı bir yer var ise orada da potansiyel sql injection vardır.
+- https://docs.djangoproject.com/en/5.0/releases/security/
+
+
+
 
 Repodaki kodların testi için ortam hazırlayalım;
 
